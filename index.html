@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Attendance Tracker</h1>
+        
+        <!-- Input Section -->
+        <div class="input-section">
+            <input type="text" id="studentName" placeholder="Enter Student Name">
+            <button onclick="markAttendance()">Mark Attendance</button>
+        </div>
+
+        <!-- Attendance Table -->
+        <div class="attendance-section">
+            <h2>Attendance Record</h2>
+            <table id="attendanceTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="attendanceBody">
+                    <!-- Attendance data will be
